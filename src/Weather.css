@@ -1,0 +1,13 @@
+.weather {
+    padding: 20px;
+    border: 1px solid #dadde1;
+    border-radius: 5px;
+  }
+
+  .weather form {
+    margin-bottom: 20px;
+  }
+
+  .weather .temperature {
+    font-weight:  bold;
+  }

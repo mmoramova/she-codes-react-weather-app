@@ -8,13 +8,10 @@ export default function App() {
   return (
     <div className="App"> 
     <div className='container'>
-
-
-    
     <h1>Weather App</h1>
-        <Weather/> 
+        <Weather defaultCity="Barcelona" /> 
         <footer>
-          This project was coded by Miriam Moramova and is {" "}
+          This project was coded by Miriam M and is {" "}
           <a href='https://github.com/mmoramova/she-codes-react-weather-app'
           target="_blank">
             opend-sourced on Github
