@@ -4,17 +4,23 @@ import axios from 'axios';
 
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-         <h1>
-          Hello world
-        </h1>
-        <Weather/>
-      </header>
+    <div className="App"> 
+    <div className='container'>
+
+
+    
+    <h1>Weather App</h1>
+        <Weather/> 
+        <footer>
+          This project was coded by Miriam Moramova and is {" "}
+          <a href='https://github.com/mmoramova/she-codes-react-weather-app'
+          target="_blank">
+            opend-sourced on Github
+          </a>
+        </footer>
+        </div>
     </div>
   );
 }
-
-export default App;
