@@ -9,7 +9,7 @@ export default function App() {
     <div className="App"> 
     <div className='container'>
     <h1>Weather App</h1>
-        <Weather defaultCity="Barcelona" /> 
+        <Weather defaultCity="Bilbao" /> 
         <footer>
           This project was coded by Miriam M and is {" "}
           <a href='https://github.com/mmoramova/she-codes-react-weather-app'
