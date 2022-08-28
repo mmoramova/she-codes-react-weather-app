@@ -1,6 +1,5 @@
 import React from 'react';
 import Weather from './Weather';
-import axios from 'axios';
 
 import './App.css';
 
@@ -13,7 +12,8 @@ export default function App() {
         <footer>
           This project was coded by Miriam M and is {" "}
           <a href='https://github.com/mmoramova/she-codes-react-weather-app'
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
             opend-sourced on Github
           </a>
         </footer>
