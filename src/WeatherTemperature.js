@@ -32,7 +32,6 @@ if (unit === "celsius") {
       );
 
 } else {
-
     return (
         <div className="WeatherTemperature">
           <span 
